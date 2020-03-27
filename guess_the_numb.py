@@ -15,7 +15,7 @@ def getchar():
 guess_number = 0
 print("This is a number guessing game. \nYou will first choose a range of number. \nThen we will generate a secreat number.\nYou have to guess it in minimum number of tries.")
 print("If you enter your guess we will inform you either the number is smaller than the secreat number or bigger.")
-print("RULE : give all input as integer" )
+print("RULE : give all inputs as integers" )
 while getchar() and not guess_number:
 	print("Choose Your Range")
 #print("Your number will be in between :")
